@@ -1,7 +1,7 @@
-#import<stdio.h>
-#import<stdlib.h>
+#include<stdio.h>
+#include<stdlib.h>
 #include<string.h>
-#import "describe.h"
+#include "describe.h"
 
 int main() {
 	speak();

@@ -1,4 +1,4 @@
-#import "describe.h"
+#include "describe.h"
 
 void speak(void) {
     char name[100];
@@ -20,7 +20,7 @@ void speak(void) {
 	free(description);
 }
 
-void swap(const void *pa, const void *pb, int size) {
+void swap(void *pa, void *pb, int size) {
     char temp[size];
     memcpy(temp, pa, size);
     memcpy(pa, pb, size);
