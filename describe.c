@@ -26,3 +26,7 @@ void swap(void *pa, void *pb, int size) {
     memcpy(pa, pb, size);
     memcpy(pb, temp, size);
 }
+
+void add(int *pi) {
+	*pi = *pi + 10;
+}

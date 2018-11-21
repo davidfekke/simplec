@@ -4,3 +4,4 @@
 
 void speak(void);
 void swap(void *pa, void *pb, int size);
+void add(int *pi);
