@@ -1,7 +1,7 @@
-#import<stdio.h>
-#import<stdlib.h>
+#include<stdio.h>
+#include<stdlib.h>
 #include<string.h>
 
 void speak(void);
-
-void swap(const void *pa, const void *pb, int size);
+void swap(void *pa, void *pb, int size);
+void add(int *pi);
